@@ -1,0 +1,106 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Mouse+Memoirs&family=Open+Sans:wght@300;400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400&display=swap');
+
+
+body{
+	font-family: Lato;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.content {
+	max-width: 825px;
+	margin: 0 auto;
+}
+.about {
+	margin: 0 0 70px 0;
+	&__title {
+		margin: 0 0 43px 0;
+	}
+	&__text {
+		font-family: Lato;
+		font-size: 14px;
+		line-height: 25px;
+		font-weight: 300;
+		color: #868585;
+		max-width: 690px;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+.title {
+		font-family: Lato;
+		font-size: 34px;
+		line-height: 1.2;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.16em;
+		color: #000000;
+		text-align: center;
+		position: relative;
+		padding: 0 0 30px 0;
+		&:after{
+			content: '';
+			width: 80px;
+			height: 1px;
+			background: black;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			margin: 0 0 0 -45px;
+		}
+}
+.row {
+	display: flex;
+	margin: 0 -15px;
+	flex-wrap: wrap;
+	&__column {
+		flex: 0 0 33.333%;
+		padding: 0 15px;
+	}
+}
+.item {
+	&__icon {
+		width: 92px;
+		height: 92px;
+		border-radius: 50%;
+		border: 2px solid #f1f1f1;
+		margin: 0 0 40px 0;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__title {
+		font-family: Lato;
+		font-size: 22px;
+		line-height: 1.2;
+		font-weight: 400;
+		letter-spacing: 0.16em;
+		color: #000000;
+		text-align: center;
+		margin: 40px 0 35px 0;
+	}
+	&__text-1 {
+		max-width: 185px;
+		margin: 0 auto;
+	}
+		&__text-2 {
+		max-width: 260px;
+		margin: 0 auto;
+	}
+		&__text-3 {
+		max-width: 260px;
+		margin: 0 auto;
+	}
+}
+.text{
+		font-family: Lato;
+		font-size: 14px;
+		line-height: 26px;
+		font-weight: 300;
+		color: #868585;
+		text-align: center;
+}
