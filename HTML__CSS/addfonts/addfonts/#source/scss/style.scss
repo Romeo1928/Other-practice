@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+	font-family: 'PFDinTextCondPro';
+	src: url('../fonts/ofont.ru_PF Din Text Cond Pro.eot');
+	src: local('☺'), url('../fonts/ofont.ru_PF Din Text Cond Pro.woff') format('woff'), url('../fonts/ofont.ru_PF Din Text Cond Pro.ttf') format('truetype'), url('../fonts/ofont.ru_PF Din Text Cond Pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PFDinTextCondProM';
+	src: url('../fonts/pfdintextcondpro-medium.eot');
+	src: local('☺'), url('../fonts/pfdintextcondpro-medium.woff') format('woff'), url('../fonts/pfdintextcondpro-medium.ttf') format('truetype'), url('../fonts/pfdintextcondpro-medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@import "nullstyle.scss";
+
+
+.textoriginal {
+	font-size: 30px;
+	list-style: 35px;
+	p{margin: 0 0 30px 0}
+}
+.text{
+	font-family: "PT Sans";
+	font-weight: 700;
+	font-size: 30px;
+	list-style: 35px;
+	p{margin: 0 0 30px 0}
+}
+
+.text-PFDIN {
+	font-family: 'PFDinTextCondPro';
+	font-size: 30px;
+	list-style: 35px;
+	p{margin: 0 0 30px 0}
+	font-style: italic;
+}
+.text-PFDIN_medium {
+	font-family: 'PFDinTextCondProM';
+	font-weight: 500;
+	font-size: 30px;
+	list-style: 35px;
+	p{margin: 0 0 30px 0}
+}
